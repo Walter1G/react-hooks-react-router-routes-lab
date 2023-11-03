@@ -6,10 +6,10 @@ function NavBar() {
   return <div>
 
     <ul>
-      <li><Link to="/" exact  >Home</Link></li>
-      <li><Link to="/directors" exact   >Directors</Link></li>
-      <li><Link to="/Movies" exact  >Movies</Link></li>
-      <li><Link to="/Actors" exact  >Actors</Link></li>
+      <li><Link to="/"   >Home</Link></li>
+      <li><Link to="/directors"    >Directors</Link></li>
+      <li><Link to="/Movies"   >Movies</Link></li>
+      <li><Link to="/Actors"   >Actors</Link></li>
     </ul>
 
   </div>;
