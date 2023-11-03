@@ -10,7 +10,7 @@ function Movies() {
       <div key={movie.id}>
         <h2>Name: {movie.title}</h2>
         <p>Time: {movie.time}</p>
-        <br />
+
         <p>Genres:</p>
         <ul>
           {movie.genres.map((genre, index) => <li key={index}>{genre}</li>)}
