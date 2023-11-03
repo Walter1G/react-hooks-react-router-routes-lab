@@ -1,15 +1,15 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   console.log("nav")
   return <div>
 
     <ul>
-      <li><NavLink to="/" exact  >Home</NavLink></li>
-      <li><NavLink to="/directors" exact   >Directors</NavLink></li>
-      <li><NavLink to="/movies" exact  >Movies</NavLink></li>
-      <li><NavLink to="/movies" exact  >Actors</NavLink></li>
+      <li><Link to="/" exact  >Home</Link></li>
+      <li><Link to="/directors" exact   >Directors</Link></li>
+      <li><Link to="/Movies" exact  >Movies</Link></li>
+      <li><Link to="/Actors" exact  >Actors</Link></li>
     </ul>
 
   </div>;
